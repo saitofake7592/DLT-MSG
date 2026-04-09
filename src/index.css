@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-pink: #ff007f;
+  --color-neon-green: #00ff66;
+  --color-dark-bg: #050505;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white font-sans antialiased;
+  }
+}
+
+.neon-border-pink {
+  box-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+}
+
+.neon-border-green {
+  box-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66;
+}
+
+.neon-text-pink {
+  text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+}
+
+.neon-text-green {
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+}
+

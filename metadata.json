@@ -1,0 +1,5 @@
+{
+  "name": "Cloud Notification Tracker",
+  "description": "A full-stack application to track and store phone notifications in the cloud with a neon-themed dashboard.",
+  "requestFramePermissions": []
+}
